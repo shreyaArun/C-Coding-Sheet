@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 	int i;
-	cout<<"Enter % : ";
-	cin>>i;
+	cout << "Enter Percentage(%) : ";
+	cin >> i;
 	if(i>90)
 	{
 		cout<<"GRADE A"<<endl;
@@ -32,7 +32,7 @@ int main()
 	}
 	else
 	{
-		cout<<"Invalid Input"<<endl;
+		cout<<"Invalid Input,Try Again!!"<<endl;
 	}
 	return 0;
 }
